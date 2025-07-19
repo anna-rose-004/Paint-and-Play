@@ -14,7 +14,88 @@ export interface Level {
 
 export const levels: Level[] = [
   {
-    name: "Simple House",
+  name: "Cloud",
+  colors: ['#1E90FF'],
+  sections: [
+    {
+      number: 1,
+      color: '#1E90FF',
+      path: 'M160,180 C140,160 200,130 220,160 C240,140 270,150 260,180 C280,200 220,210 200,200 C180,220 140,200 160,180 Z',
+      labelX: 200,
+      labelY: 180
+    }
+  ]
+},
+    {
+      name: "Star",
+      colors: ['#FFD700'],
+      sections: [
+        {
+          number: 1,
+          color: '#FFD700',
+          path: 'M200,130 L215,180 L270,180 L225,210 L240,260 L200,230 L160,260 L175,210 L130,180 L185,180 Z',
+          labelX: 200,
+          labelY: 200
+        }
+      ]
+    },
+    {
+  name: "Balloon",
+  colors: ['#FF69B4', '#8B0000'],
+  sections: [
+    {
+      number: 1,
+      color: '#FF69B4',
+      path: 'M200,120 A30,40 0 1,1 200,200 A30,40 0 1,1 200,120',
+      labelX: 200,
+      labelY: 160
+    },
+    {
+      number: 2,
+      color: '#8B0000',
+      path: 'M195,200 L205,200 L200,230 Z',
+      labelX: 200,
+      labelY: 215
+    }
+  ]
+},
+    {
+  name: "Sun",
+  colors: ['#FFD700', '#FFA500'],
+  sections: [
+    {
+      number: 1,
+      color: '#FFD700',
+      path: 'M180,180 A20,20 0 1,1 220,180 A20,20 0 1,1 180,180', // sun center
+      labelX: 200,
+      labelY: 180
+    },
+    {
+      number: 2,
+      color: '#FFA500',
+      path: 'M200,60 L200,120', // top ray
+      labelX: 200,
+      labelY: 90
+    },
+    {
+      number: 3,
+      color: '#FFA500',
+      path: 'M270,110 L230,150', // top-right ray
+      labelX: 250,
+      labelY: 130
+    },
+    {
+      number: 4,
+      color: '#FFA500',
+      path: 'M140,110 L170,150', // top-left ray
+      labelX: 155,
+      labelY: 130
+    }
+  ]
+},
+
+  {
+    name: "House",
     colors: ['#FF0000', '#FFD700', '#8B4513'], // ✅ Only one colors array
     sections: [
       {
@@ -41,33 +122,7 @@ export const levels: Level[] = [
     ]
   },
   {
-  name: "Cloud",
-  colors: ['#1E90FF'],
-  sections: [
-    {
-      number: 1,
-      color: '#1E90FF',
-      path: 'M160,180 C140,160 200,130 220,160 C240,140 270,150 260,180 C280,200 220,210 200,200 C180,220 140,200 160,180 Z',
-      labelX: 200,
-      labelY: 180
-    }
-  ]
-},
-    {
-      name: "Star",
-      colors: ['#FFD700'],
-      sections: [
-        {
-          number: 1,
-          color: '#FFD700',
-          path: 'M200,130 L215,180 L270,180 L225,210 L240,260 L200,230 L160,260 L175,210 L130,180 L185,180 Z',
-          labelX: 200,
-          labelY: 200
-        }
-      ]
-    },
-  {
-    name: "Beautiful Flower",
+    name: "Flower",
     colors: ["#EC4899", "#FCD34D", "#10B981", "#3B82F6", "#EF4444", "#8B5CF6"],
     sections: [
       {
@@ -116,41 +171,7 @@ export const levels: Level[] = [
   }
 ,
   {
-  name: "Sun",
-  colors: ['#FFD700', '#FFA500'],
-  sections: [
-    {
-      number: 1,
-      color: '#FFD700',
-      path: 'M180,180 A20,20 0 1,1 220,180 A20,20 0 1,1 180,180', // sun center
-      labelX: 200,
-      labelY: 180
-    },
-    {
-      number: 2,
-      color: '#FFA500',
-      path: 'M200,60 L200,120', // top ray
-      labelX: 200,
-      labelY: 90
-    },
-    {
-      number: 3,
-      color: '#FFA500',
-      path: 'M270,110 L230,150', // top-right ray
-      labelX: 250,
-      labelY: 130
-    },
-    {
-      number: 4,
-      color: '#FFA500',
-      path: 'M140,110 L170,150', // top-left ray
-      labelX: 155,
-      labelY: 130
-    }
-  ]
-},
-  {
-    name: "Cute Cat",
+    name: "Cat",
     sections: [
       {
         number: 1,
@@ -198,6 +219,40 @@ export const levels: Level[] = [
     colors: ["#F97316", "#1F2937", "#EC4899", "#FCD34D", "#10B981", "#3B82F6"]
   },
   {
+    name: "Car",
+    sections: [
+      {
+        number: 1,
+        path: "M 100 200 L 300 200 L 300 250 L 100 250 Z",
+        color: "#EF4444",
+        labelX: 200,
+        labelY: 225
+      },
+      {
+        number: 2,
+        path: "M 130 170 L 270 170 L 270 200 L 130 200 Z",
+        color: "#3B82F6",
+        labelX: 200,
+        labelY: 185
+      },
+      {
+        number: 3,
+        path: "M 120 250 Q 140 280 160 250 Q 140 220 120 250",
+        color: "#1F2937",
+        labelX: 140,
+        labelY: 250
+      },
+      {
+        number: 4,
+        path: "M 240 250 Q 260 280 280 250 Q 260 220 240 250",
+        color: "#1F2937",
+        labelX: 260,
+        labelY: 250
+      }
+    ],
+    colors: ["#EF4444", "#3B82F6", "#1F2937", "#FCD34D", "#10B981", "#8B5CF6"]
+  },
+  {
     name: "Rainbow",
     sections: [
       {
@@ -237,40 +292,6 @@ export const levels: Level[] = [
       }
     ],
     colors: ["#EF4444", "#F97316", "#FCD34D", "#10B981", "#3B82F6", "#8B5CF6"]
-  },
-  {
-    name: "Simple Car",
-    sections: [
-      {
-        number: 1,
-        path: "M 100 200 L 300 200 L 300 250 L 100 250 Z",
-        color: "#EF4444",
-        labelX: 200,
-        labelY: 225
-      },
-      {
-        number: 2,
-        path: "M 130 170 L 270 170 L 270 200 L 130 200 Z",
-        color: "#3B82F6",
-        labelX: 200,
-        labelY: 185
-      },
-      {
-        number: 3,
-        path: "M 120 250 Q 140 280 160 250 Q 140 220 120 250",
-        color: "#1F2937",
-        labelX: 140,
-        labelY: 250
-      },
-      {
-        number: 4,
-        path: "M 240 250 Q 260 280 280 250 Q 260 220 240 250",
-        color: "#1F2937",
-        labelX: 260,
-        labelY: 250
-      }
-    ],
-    colors: ["#EF4444", "#3B82F6", "#1F2937", "#FCD34D", "#10B981", "#8B5CF6"]
   },
   {
     name: "Butterfly",
@@ -441,39 +462,6 @@ export const levels: Level[] = [
       labelY: 180
     }
   ],
-},
-{
-  name: "Star",
-  colors: ['#FFD700'],
-  sections: [
-    {
-      number: 1,
-      color: '#FFD700',
-      path: 'M200,130 L215,180 L270,180 L225,210 L240,260 L200,230 L160,260 L175,210 L130,180 L185,180 Z',
-      labelX: 200,
-      labelY: 200
-    }
-  ]
-},
-{
-  name: "Balloon",
-  colors: ['#FF69B4', '#8B0000'],
-  sections: [
-    {
-      number: 1,
-      color: '#FF69B4',
-      path: 'M200,120 A30,40 0 1,1 200,200 A30,40 0 1,1 200,120',
-      labelX: 200,
-      labelY: 160
-    },
-    {
-      number: 2,
-      color: '#8B0000',
-      path: 'M195,200 L205,200 L200,230 Z',
-      labelX: 200,
-      labelY: 215
-    }
-  ]
 },
 {
   name: "Train Engine",
