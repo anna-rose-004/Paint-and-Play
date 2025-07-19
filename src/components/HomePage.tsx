@@ -1,5 +1,5 @@
 import React from 'react';
-import { Palette, Star, Heart, Smile, Volume2, VolumeX } from 'lucide-react';
+import { Palette, Star, Smile, Volume2, VolumeX } from 'lucide-react';
 import { soundManager } from '../utils/soundManager';
 
 interface HomePageProps {
@@ -52,7 +52,7 @@ const HomePage: React.FC<HomePageProps> = ({ onStartGame }) => {
         </div>
 
         {/* Feature Icons */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 lg:gap-6 mb-6 lg:mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 lg:gap-6 mb-6 lg:mb-12">
           <div className="flex flex-col items-center p-3 lg:p-6 bg-white rounded-2xl shadow-lg transform hover:scale-105 transition-transform">
             <Palette className="w-8 h-8 lg:w-12 lg:h-12 text-purple-500 mb-2 lg:mb-3" />
             <p className="text-sm lg:text-lg font-semibold text-gray-700">Easy Colors</p>
@@ -60,10 +60,6 @@ const HomePage: React.FC<HomePageProps> = ({ onStartGame }) => {
           <div className="flex flex-col items-center p-3 lg:p-6 bg-white rounded-2xl shadow-lg transform hover:scale-105 transition-transform">
             <Star className="w-8 h-8 lg:w-12 lg:h-12 text-yellow-500 mb-2 lg:mb-3" />
             <p className="text-sm lg:text-lg font-semibold text-gray-700">Fun Levels</p>
-          </div>
-          <div className="flex flex-col items-center p-3 lg:p-6 bg-white rounded-2xl shadow-lg transform hover:scale-105 transition-transform">
-            <Heart className="w-8 h-8 lg:w-12 lg:h-12 text-red-500 mb-2 lg:mb-3" />
-            <p className="text-sm lg:text-lg font-semibold text-gray-700">Safe & Kind</p>
           </div>
           <div className="flex flex-col items-center p-3 lg:p-6 bg-white rounded-2xl shadow-lg transform hover:scale-105 transition-transform">
             <Smile className="w-8 h-8 lg:w-12 lg:h-12 text-green-500 mb-2 lg:mb-3" />
@@ -100,7 +96,7 @@ const HomePage: React.FC<HomePageProps> = ({ onStartGame }) => {
 
         {/* Accessibility Note */}
         <div className="mt-4 lg:mt-8 text-gray-500 text-sm lg:text-lg px-4">
-          <p>Designed with love for all children • Audio Feedback • Accessible • Educational • Fun</p>
+          <p>• Accessible • Educational • Fun</p>
         </div>
       </div>
     </div>
