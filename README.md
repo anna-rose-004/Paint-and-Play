@@ -33,14 +33,28 @@ ColorPlay empowers kids by making creative tasks intuitive, rewarding, and frust
 🧩 Key Features
 -
 
-Feature	Description
--📷 Visual Number-Painting Game	A simple image with numbered sections guides the child to color by number.
--🎨 Color Palette with Labels	High-contrast colors labeled with names to support color recognition.
--🔊 Audio Feedback + Music	Gentle background music and short audio cues for correct/incorrect actions.
--✨ Animations for Positive Feedback	Celebratory animations after each correct move and level completion.
--🧠 Level-Based Progression	Gradually increases complexity to support cognitive development.
--🖱 Big Clickable Targets	Designed for kids with motor impairments or coordination challenges.
--🔁 Replay & Navigation Buttons	Simple controls to restart, mute audio, or return to the home screen.
+### Features
+
+- **📷 Visual Number-Painting Game**  
+  A simple image with numbered sections guides the child to color by number.
+
+- **🎨 Color Palette with Labels**  
+  High-contrast colors labeled with names to support color recognition.
+
+- **🔊 Audio Feedback + Music**  
+  Gentle background music and short audio cues for correct/incorrect actions.
+
+- **✨ Animations for Positive Feedback**  
+  Celebratory animations after each correct move and level completion.
+
+- **🧠 Level-Based Progression**  
+  Gradually increases complexity to support cognitive development.
+
+- **🖱 Big Clickable Targets**  
+  Designed for kids with motor impairments or coordination challenges.
+
+- **🔁 Replay & Navigation Buttons**  
+  Simple controls to restart, mute audio, or return to the home screen.
 
 ---
 🧒 Who Benefits?
