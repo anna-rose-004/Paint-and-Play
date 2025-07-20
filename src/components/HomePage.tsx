@@ -44,7 +44,7 @@ const HomePage: React.FC<HomePageProps> = ({ onStartGame }) => {
         {/* Game Title */}
         <div className="mb-4 lg:mb-8">
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 mb-2 lg:mb-4">
-            Rainbow Paint
+            Paint and Play
           </h1>
           <p className="text-lg md:text-2xl lg:text-3xl text-gray-600 font-medium">
             Learn Colors • Have Fun • Create Art
