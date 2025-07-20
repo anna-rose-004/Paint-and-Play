@@ -33,6 +33,7 @@ Paint and Play was built with a mission to make digital playtime more inclusive.
 * **Accessibility:** ARIA labels, clear color contrast, large click zones
 
 ---
+ Live GameTry it yourself at: https://paint-and-play.vercel.app/
 
 
 Thank you for checking out Paint and Play! Hope it brings bright smiles and colorful learning moments to every child.
