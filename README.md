@@ -6,7 +6,7 @@ An Accessible, Joyful Painting Game for All Children
 ---
 👶 Overview
 -
-ColorPlay is a web-based painting game created with a focus on inclusive design and accessibility. Children of all abilities, including those with cognitive, motor, or sensory impairments, can learn colors, recognize numbers, and enjoy creative play—all at their own pace.
+Paint and Play is a web-based painting game created with a focus on inclusive design and accessibility. Children of all abilities, including those with cognitive, motor, or sensory impairments, can learn colors, recognize numbers, and enjoy creative play—all at their own pace.
 
 With a fun, interactive interface and rewarding feedback (audio + animations), ColorPlay turns color learning into a celebration.
 
@@ -26,7 +26,7 @@ Motor skill difficulties
 
 Visual challenges (e.g., low vision, color confusion)
 
-ColorPlay empowers kids by making creative tasks intuitive, rewarding, and frustration-free.
+Paint and Play empowers kids by making creative tasks intuitive, rewarding, and frustration-free.
 
 ---
 
